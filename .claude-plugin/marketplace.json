@@ -1,0 +1,16 @@
+{
+  "name": "swiftuiblocks",
+  "owner": { "name": "SwiftUI Blocks" },
+  "metadata": {
+    "description": "Copy-paste SwiftUI components for iOS 18 through iOS 27."
+  },
+  "plugins": [
+    {
+      "name": "swiftui-blocks",
+      "source": "./",
+      "description": "Find a SwiftUI component in the SwiftUI Blocks catalog and add its file to your project.",
+      "homepage": "https://swiftuiblocks.dev/install/",
+      "license": "MIT"
+    }
+  ]
+}
