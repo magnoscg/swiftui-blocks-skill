@@ -17,11 +17,24 @@ Any agent that reads skills, with the
 npx skills add magnoscg/swiftui-blocks-skill
 ```
 
-Claude Code, as a plugin:
+Or with your agent's own plugin system, which also updates it. Pick one way
+on each computer.
 
 ```sh
+# Claude Code
 claude plugin marketplace add magnoscg/swiftui-blocks-skill
 claude plugin install swiftui-blocks@swiftuiblocks
+
+# Codex
+codex plugin marketplace add magnoscg/swiftui-blocks-skill
+codex plugin add swiftui-blocks@swiftuiblocks
+
+# Copilot CLI
+copilot plugin marketplace add magnoscg/swiftui-blocks-skill
+copilot plugin install swiftui-blocks@swiftuiblocks
+
+# Gemini CLI
+gemini extensions install https://github.com/magnoscg/swiftui-blocks-skill
 ```
 
 Then ask your agent for what you need: *add a like button that bursts into
