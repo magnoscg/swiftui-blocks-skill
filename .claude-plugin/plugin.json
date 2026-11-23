@@ -1,6 +1,6 @@
 {
   "name": "swiftui-blocks",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "description": "Find a SwiftUI component in the SwiftUI Blocks catalog and add its file to your project.",
   "homepage": "https://swiftuiblocks.dev/install/",
   "repository": "https://github.com/magnoscg/swiftui-blocks",
